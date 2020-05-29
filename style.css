@@ -1,0 +1,55 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #camera, #camera--view, #camera--sensor, #camera--output{
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+
+  #camera--overlay{
+      height: 812px;
+      width: 375px;
+      position: fixed;
+      z-index: 4;
+  }
+  
+  #camera--trigger{
+      width: 195px;
+      height: 462px;
+      opacity: 0.0;
+      padding: 15px 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 160px;
+      left: calc(50% - 115px);
+      z-index: 5;
+  }
+  
+  #ocr--confirm{
+    display: none;
+    position: fixed;
+    height: 812px; 
+    width: 375px;
+    z-index: 6;
+}
+
+  .taken{
+    background-image: url("images/confrim.png");
+    transform: rotate(-90deg);
+    height: 300px!important;
+    width: 205px!important;
+    transition: all 0.0s ease-in;
+    border: solid 0px white;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    top: 150px;
+    left: 85px;
+    z-index: 7;
+}
