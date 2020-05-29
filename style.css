@@ -40,7 +40,7 @@ html, body{
 }
 
   .taken{
-    background-image: url("images/confrim.png");
+    background-image: url("images/confirm.png");
     transform: rotate(-90deg);
     height: 300px!important;
     width: 205px!important;
