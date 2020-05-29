@@ -34,7 +34,7 @@ html, body{
   #ocr--confirm{
     display: none;
     position: fixed;
-    height: 812px; 
+    height: 667px; 
     width: 375px;
     z-index: 6;
 }
